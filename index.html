@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -30,12 +31,14 @@
         </div>
     </header>
     <main>
-        <div class="container">
-            <section class="hero">
+        <section class="hero">
+            <div class="container">
                 <h1 class="hero-title">Эффективные решения <br>для вашего бизнеса</h1>
                 <button type="button" class="hero-btn">Заказать услугу</button>
-            </section>
-            <section class="benefits-section section">
+            </div>
+        </section>
+        <section class="benefits-section section">
+            <div class="container">
                 <h2 class="benefits-title">Наши преимущества</h2>
                 <ul class="benefits-list">
                     <li class="benefits-item">
@@ -59,44 +62,56 @@
                             заданий.</p>
                     </li>
                 </ul>
-            </section>
-            <section class="employment-section section">
+            </div>
+        </section>
+        <section class="employment-section">
+            <div class="container">
                 <h2 class="employment-title">Чем мы занимаемся</h2>
                 <ul class="employment-list">
-                    <li class="employment-item"><img src="./images/example-1.jpg" alt="Разработка програмного обеспечения"
-                            width="370" height="294"></li>
-                    <li class="employment-item"><img src="./images/example-2.jpg" alt="Веб-дизайн" width="370" height="294">
+                    <li class="employment-item"><img src="./images/example-1.jpg" alt="Разработка програмного обеспечения" width="370"
+                            height="294" class="employment-img"></li>
+                    <li class="employment-item"><img src="./images/example-2.jpg" alt="Веб-дизайн" width="370" height="294" class="employment-img">
                     </li>
-                    <li class="employment-item"><img src="./images/example-3.jpg" alt="Подбор цветовой гаммы" width="370"
-                            height="294"></li>
+                    <li class="employment-item"><img src="./images/example-3.jpg" alt="Подбор цветовой гаммы" width="370" height="294" class="employment-img">
+                    </li>
                 </ul>
-            </section>
-            <section class="team-section section">
+            </div>
+        </section>
+        <section class="team-section section">
+            <div class="container">
                 <h2 class="team-title">Наша команда</h2>
                 <ul class="team-list">
                     <li class="team-item">
                         <img src="./images/member-1.jpg" alt="Product Designer" width="270" height="260" class="team-item-photo">
-                        <h3 class="team-item-title">Игорь Демьяненко</h3>
-                        <p lang="en" class="team-item-text">Product Designer</p>
+                        <div class="team-item-description">
+                            <h3 class="team-item-title">Игорь Демьяненко</h3>
+                            <p lang="en" class="team-item-text">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img src="./images/member-2.jpg" alt="Frontend Developer" width="270" height="260" class="team-item-photo">
-                        <h3 class="team-item-title">Ольга Репина</h3>
-                        <p lang="en" class="team-item-text">Frontend Developer</p>
+                        <div class="team-item-description">
+                            <h3 class="team-item-title">Ольга Репина</h3>
+                            <p lang="en" class="team-item-text">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img src="./images/member-3.jpg" alt="Marketing" width="270" height="260" class="team-item-photo">
-                        <h3 class="team-item-title">Николай Тарасов</h3>
-                        <p lang="en" class="team-item-text">Marketing</p>
+                        <div class="team-item-description">
+                            <h3 class="team-item-title">Николай Тарасов</h3>
+                            <p lang="en" class="team-item-text">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img src="./images/member-4.jpg" alt="UI Designer" width="270" height="260" class="team-item-photo">
-                        <h3 class="team-item-title">Михаил Ермаков</h3>
-                        <p lang="en" class="team-item-text">UI Designer</p>
+                        <div class="team-item-description">
+                            <h3 class="team-item-title">Михаил Ермаков</h3>
+                            <p lang="en" class="team-item-text">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="container">
