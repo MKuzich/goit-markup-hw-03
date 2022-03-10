@@ -138,7 +138,7 @@ ul {
 
 .hero {
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   background-color: var(--theme-bckgrnd-hero);
 }
 
@@ -363,7 +363,6 @@ ul {
   width: 370px;
   margin-left: 30px;
   margin-top: 30px;
-  border-bottom: 1px solid var(--theme-border-color);
 }
 
 .examples-section-items:nth-child(3n + 1) {
@@ -414,6 +413,9 @@ ul {
 
 .company-text {
   padding: 20px 24px;
+  border-bottom: 1px solid var(--theme-border-color);
+  border-left: 1px solid var(--theme-border-color);
+  border-right: 1px solid var(--theme-border-color);
 }
 
 .company-name {
@@ -431,6 +433,12 @@ ul {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--theme-description);
+}
+
+.company-photo,
+.team-item-photo,
+.employment-img {
+  display: block;
 }
 
 .current {
