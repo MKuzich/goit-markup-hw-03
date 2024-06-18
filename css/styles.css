@@ -86,7 +86,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
+  padding: 24px 15px;
 }
 
 .header-nav {
@@ -172,7 +172,7 @@ img {
 }
 
 .team-description {
-  padding: 32px 16px;
+  padding: 32px 0;
   text-align: center;
 }
 
@@ -197,7 +197,7 @@ img {
   row-gap: 48px;
 }
 .portfolio-description {
-  padding: 32px 0;
+  padding: 32px 16px;
   border: 1px solid var(--accent-color);
   border-top: none;
 }
