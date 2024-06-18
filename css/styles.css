@@ -86,7 +86,6 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 15px;
 }
 
 .header-nav {
@@ -103,6 +102,7 @@ img {
   color: var(--dark-color);
   font-weight: 500;
   padding: 24px 0;
+  display: inline-block;
 }
 
 .header-nav-link:hover,
